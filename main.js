@@ -20,8 +20,7 @@ let speed = 0.5; // pixels per frame
 let position = 0;
 
 // Calculate total height of original slides (before cloning)
-const originalHeight = slides.slice(0, slides.length / 2)
-                             .reduce((sum, slide) => sum + slide.offsetHeight, 0);
+const originalHeight = slides.slice(0, slides.length / 2).reduce((sum, slide) => sum + slide.offsetHeight, 0);
 
 function animate() {
   position += speed;
