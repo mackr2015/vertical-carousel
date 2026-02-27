@@ -1,0 +1,25 @@
+.slider {
+    margin: 80px auto;
+    height: 700px;
+    width: 750px;
+    overflow: hidden;
+    position: relative;
+}
+
+.track .slide1,
+.track .slide2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    will-change: transform;
+}
+
+
+
+.track img {
+    width: 180px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-radius: 999px;
+}
